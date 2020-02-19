@@ -10,7 +10,7 @@ class MonsterCard extends React.Component {
         return (
             <div className='card-container'>
                 <img alt='monster' src={'https://robohash.org/' + this.props.monster.id + '1?set=set2&size=180x180'} />
-                <h1>{this.props.monster.name}</h1>
+                <h2>{this.props.monster.name}</h2>
                 <p>{this.props.monster.email}</p>
             </div>
         )
